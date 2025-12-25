@@ -1,64 +1,72 @@
 // Resume data
 const resumeEntries = [
   { 
-    yearRange: "2025 -", 
-    logoFile: "novartis_pharmaceuti_69e4b2ae.jpg",
+    yearRange: "2025 - Current", 
+    logoFile: "novartis_pharmaceuti_69e4b2ae.png",
     logoInitials: "N",
-    description: "I am at Novartis in the Insights & Decision Sciences team, working on leveraging real-world data and advanced analytics to drive evidence-based decision making in drug development and commercialization." 
+    description: "I am at Novartis in the Persoanlized & Precision Medicine team within the Insights & Decision Sciences department, working on leveraging real-world data and machine learning to drive evidence-based decision making in clinical development and commercialization." 
   },
-  { 
-    yearRange: "2019 - 2025", 
-    logoFile: "pfizer_pharmaceutica_22f7792e.jpg",
-    logoInitials: "P",
-    description: "I was in Medical Affairs at Pfizer, where I led initiatives in real-world evidence generation, health informatics strategy, and data-driven approaches to understanding treatment outcomes and patient journeys." 
-  },
+{
+  yearRange: "2019 - 2025",
+  logoFile: "pfizer_pharmaceutica_22f7792e.png",
+  logoInitials: "P",
+  description: `
+    Served as Senior Director of Clinical Informatics in Medical Affairs, supporting the Medical Outcomes, the Enterprise Strategic Alliance, and the Medical Digital Health teams. I led scalable collaborations with leading health systems to address priorities such as vaccine hesitancy, Social Drivers of Health (<a href="https://doi.org/10.1161/JAHA.122.026745" target="_blank" rel="noreferrer">JAHA</a>), atrial fibrillation care redesign, and lipid-lowering therapy for cardiovascular prevention (<a href="https://doi.org/10.1016/j.ajpc.2025.101067" target="_blank" rel="noreferrer">AJPC</a>). I also led multi-phase partnerships to develop, validate, implement, and scale clinical prediction models for earlier detection and management of diseases, including atrial fibrillation (<a href="https://rdcu.be/eWkSY" target="_blank" rel="noreferrer">development</a>; <a href="https://doi.org/10.1016/j.hroo.2024.09.010" target="_blank" rel="noreferrer">validation</a>; <a href="https://rdcu.be/eWkUo" target="_blank" rel="noreferrer">implementation</a>), cardiac amyloidosis (<a href="https://www.jacc.org/doi/full/10.1016/S0735-1097%2821%2902036-2" target="_blank" rel="noreferrer">JACC</a>), and C. difficile infection (<a href="https://doi.org/10.1016/j.anaerobe.2025.102978" target="_blank" rel="noreferrer">Anaerobe</a>).
+  `.trim()
+},
   { 
     yearRange: "2012 - 2019", 
-    logoFile: "university_of_michig_f96a3e5a.jpg",
+    logoFile: "Block_M-Hex.png",
     logoInitials: "MM",
-    description: "I was at Michigan Medicine (University of Michigan Health System) working on clinical decision support, EHR optimization, and pharmacy informatics. My work focused on translating health IT capabilities into improved patient care and clinician workflows." 
+    description: `I joined at Michigan Medicine (University of Michigan Health System) as a Clinical Informatics Pharmacist. I co-led implementation of clinical pharmacy workflow <a href="https://academic.oup.com/ofid/article/6/Supplement_2/S364/5606200" target="_blank" rel="noopener noreferrer">antimicrobial stewardship</a>, <a href="https://doi.org/10.3390/jpm10040154" target="_blank" rel="noopener noreferrer">pharmacogenetics CDS</a>, <a href="https://www.thieme-connect.com/products/ejournals/html/10.4338/ACI-2016-11-RA-0187" target="_blank" rel="noopener noreferrer">pediatric subcutaneous insulin calculator</a>, <a href="https://doi.org/10.1177/1932296820974767" target="_blank" rel="noopener noreferrer">ICU Intravenous insulin calculator</a>, and predictive analytics for readmission risk reduction, acute kidney injury prevention, pancreatitis severity estimation, and polypharmacy prioritization in the ER. My insulin calculators were adopted by Epic and implemented by at least 60 leading hospitals nationwide.` 
   },
   { 
     yearRange: "2010 - 2014", 
-    logoFile: "university_of_minnes_30632582.jpg",
+    logoFile: "university_of_minnes_30632582.png",
     logoInitials: "UM",
-    description: "I earned my Master of Science in Health Informatics from the University of Minnesota, studying the intersection of healthcare, data science, and information technology." 
+    description: `I earned my career-transforming Master of Science in Health Informatics from the University of Minnesota, with a specialization as a Health Informatics R&D Specialist. I published my <a href="https://rdcu.be/eWkI0" target="_blank" rel="noopener noreferrer">first peer-reviewed paper</a> with supervision from Dr. Stuart Speedie.` 
   },
   { 
-    yearRange: "2009 - 2012", 
+    yearRange: "2009 - 2012",
+    logoFile: "ascension-logo.png",
     logoInitials: "C",
-    description: "I worked at CentraCare Health (part of Ascension Health), developing expertise in clinical pharmacy practice and healthcare delivery systems." 
+    description: "I moved to Minnesota and worked at CentraCare Health in St. Cloud, MN, and remotely for Ascension Health." 
   },
   { 
     yearRange: "2006 - 2010", 
-    logoFile: "university_of_florid_cedab3b5.jpg",
+    logoFile: "university_of_florid_cedab3b5.png",
     logoInitials: "UF",
-    description: "I completed my Doctor of Pharmacy (PharmD) degree at the University of Florida College of Pharmacy, one of the top pharmacy programs in the United States." 
+    description: "I completed my Working Professional Doctor of Pharmacy (PharmD) degree at the University of Florida College of Pharmacy, solidifying my clinical knowledge." 
   },
   { 
     yearRange: "2006 - 2009", 
+    logoFile: "beaumont_logo_old.png",
     logoInitials: "BH",
-    description: "I gained clinical pharmacy experience at Beaumont Health in Michigan, working across various pharmacy practice settings." 
+    description: "I worked at Beaumont Health in Royal Oak, where I practiced clinical pharmacy on Med/Surg, ICU floors, and in the ER. I precepted pharmacy students from Wayne State University and grew as a mentor and clinican. I also served as a Super User for Epic EHR implementation which prompted my later transition to a successful career in informatics." 
   },
   { 
     yearRange: "2004 - 2006", 
+    logoFile: "W_logo_RGB.png",
     logoInitials: "W",
-    description: "I worked at Walgreens, developing foundational skills in community pharmacy practice and patient care." 
+    description: "I transitioned to Walgreens as a staff Pharmacist, then a Pharmacy Manager." 
   },
   { 
     yearRange: "2001 - 2004", 
+    logoFile: "CVS_Pharmacy_1996.svg",
     logoInitials: "CVS",
-    description: "I started my US pharmacy career at CVS Pharmacy, learning the fundamentals of American pharmacy practice." 
+    description: "I joined CVS Pharmacy in Michigan as a Pharmacy Graduate Intern, then Staff Pharmacist, then a Pharmacist-in-Charge." 
   },
   { 
     yearRange: "1999 - 2001", 
+    logoFile: "nodcar_egypt.jpeg",
     logoInitials: "ND",
-    description: "I worked at the National Organization for Drug Research and Control (NODCAR) in Egypt, contributing to pharmaceutical quality assurance and drug research." 
+    description: "I worked at the National Organization for Drug Research and Control (NODCAR) in Egypt, working on bioavailability and bioequivalence studies of pharmaceutical products." 
   },
   { 
     yearRange: "1994 - 1999", 
+    logoFile: "cairo_university_pharmacy.png",
     logoInitials: "CU",
-    description: "I earned my Bachelor of Science in Pharmacy from the Faculty of Pharmacy at Cairo University, one of the leading pharmacy schools in the Middle East." 
+    description: "I earned my Bachelor of Science in Pharmacy from the Faculty of Pharmacy at Cairo University, the leading pharmacy schools in the Middle East." 
   }
 ];
 
