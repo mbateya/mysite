@@ -54,7 +54,7 @@ const resumeEntries = [
     yearRange: "2001 - 2004", 
     logoFile: "CVS_Pharmacy_1996.svg",
     logoInitials: "CVS",
-    description: "I joined CVS Pharmacy in Michigan as a pharmacy graduate Intern, then Staff Pharmacist, then a Pharmacist-in-Charge." 
+    description: "I joined CVS Pharmacy in Michigan as a pharmacy graduate Intern, then staff pharmacist, then a pharmacist-in-charge." 
   },
   { 
     yearRange: "1999 - 2001", 
